@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/patientdetails"
+    tools:context=".SecondActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="276dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:background="#F2FBFB"
+        android:hint="Enter Username"
+        android:textColor="@android:color/black"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="263dp"
+        android:layout_height="52dp"
+        android:layout_centerInParent="true"
+        android:background="#F2FBFB"
+        android:hint="enter password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black" />
+
+    <Button
+        android:onClick="GoToPatientDetails"
+        android:id="@+id/btnLogIn"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="115dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="" />
+</RelativeLayout>

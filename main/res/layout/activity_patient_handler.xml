@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/patienthandler"
+    tools:context=".PatientHandler">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Details"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+      <LinearLayout
+          android:layout_marginTop="70dp"
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <Button
+              android:id="@+id/addpatient"
+              android:background="#37C9C9"
+              android:layout_width="150dp"
+              android:layout_height="150dp"
+              android:layout_marginLeft="10dp"
+              android:text="NEW PATIENT" />
+
+          <Button
+              android:id="@+id/note"
+              android:background="#37C9C9"
+              android:layout_marginLeft="40dp"
+              android:text="Add Notes"
+              android:layout_width="150dp"
+              android:layout_height="150dp"/>
+
+      </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp">
+
+        <Button
+            android:id="@+id/ab"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:background="#37C9C9"
+            android:text="ABOUT US" />
+
+        <Button
+            android:id="@+id/cont"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="40dp"
+            android:background="#37C9C9"
+            android:text="CONTACT" />
+    </LinearLayout>
+
+</RelativeLayout>

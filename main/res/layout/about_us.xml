@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_us">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About us"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="85dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Patient App
+
+
+
+We propose to develop an android application to aid in dispensary patient data management and viewing. The system is aimed to help doctors to enter as well as view patient history as well as other patient details. Our system is a standalone system that can be installed on doctor android phone to be used for further login. On installation the application allows a doctor to open application and enter the details of any patient that undertakes his service. The application allows doctor to insert various data fields regarding a patient including patient name, disease, medication provided etc. The system saves this patient related data in the android phone. The doctor may now view this data as and when needed. The doctor may check the details whenever needed.
+
+
+" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
